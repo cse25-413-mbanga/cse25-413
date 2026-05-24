@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Motion by Mike</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">Motion by Mike</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <h1>Contact Us</h1>
+        <p>Home &gt; Contact</p>
+    </div>
+
+    <div class="section">
+        <h2>Get in Touch</h2>
+        <p><strong>Phone:</strong> +267 71 234 567</p>
+        <p><strong>Email:</strong> info@motionbymike.co.bw</p>
+        <p><strong>Location:</strong> Gaborone, Botswana</p>
+        <p><strong>Hours:</strong> Monday to Saturday, 9:00am to 8:00pm</p>
+
+        <h2 style="margin-top:40px;">Send a Message</h2>
+
+        <form id="contact-form" style="max-width:600px; margin-top:20px;">
+
+            <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+267 7X XXX XXX">
+            </div>
+
+            <div class="form-group">
+                <label for="interest">Class Interest</label>
+                <select id="interest" name="interest">
+                    <option value="">-- Select a class --</option>
+                    <option value="afrobeats">Afrobeats</option>
+                    <option value="hiphop">Hip Hop</option>
+                    <option value="contemporary">Contemporary</option>
+                    <option value="kids">Kids Programme</option>
+                    <option value="private">Private Coaching</option>
+                    <option value="corporate">Corporate Workshop</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <div class="form-check">
+                <input type="checkbox" id="agree" name="agree" required>
+                <label for="agree">I agree to be contacted by Motion by Mike.</label>
+            </div>
+
+            <button type="submit" class="btn">Send Message</button>
+
+            <div id="form-message"></div>
+
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Motion by Mike | Gaborone, Botswana</p>
+        <p><a href="contact.html">Contact Us</a></p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
