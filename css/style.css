@@ -28,6 +28,9 @@ nav .logo {
     text-decoration: none;
     transition: opacity 0.2s;
 }
+nav .logo:hover {
+    opacity: 0.8;
+}
 
 nav ul {
     list-style: none;
